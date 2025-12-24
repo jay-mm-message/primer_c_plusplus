@@ -1,5 +1,6 @@
+#ifndef SALES_DATA_H
+#define SALES_DATA_H
 #include <iostream>
-
 struct Sales_data {
 	std::string bookNo;
 	unsigned unit_sold = 0;
@@ -18,3 +19,5 @@ struct Sales_data {
 			<< std::endl;
 	}
 };
+
+#endif
